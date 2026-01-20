@@ -115,7 +115,7 @@ export function ProductCard({ product, onAddToCart }: ProductCardProps) {
           {/* Price */}
           <div className="flex items-baseline gap-2 mt-auto mb-3">
             <span className="text-lg font-bold text-foreground">
-              ${product.price}
+              ₹{product.price.toLocaleString('en-IN')}
             </span>
           </div>
 
