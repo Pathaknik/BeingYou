@@ -547,7 +547,7 @@ export const PRODUCTS: Product[] = [
     category: "Wellness",
     price: 44.99,
     image:
-      "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=500&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518611505868-48510c2e022b?w=500&h=500&fit=crop&q=80",
     description:
       "Premium non-slip yoga mat with carrying strap. Perfect for yoga, pilates, and meditation.",
     rating: 4.9,
