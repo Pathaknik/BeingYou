@@ -5,9 +5,9 @@ export const PRODUCTS: Product[] = [
     id: "p1",
     name: "Radiant Glow Serum",
     category: "Beauty",
-    price: 45.99,
+    price: 3800,
     image:
-      "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1570545063211-8476ceeb722d?w=500&h=500&fit=crop&q=80",
     description:
       "Vitamin C-infused serum that brightens and evens skin tone. Perfect for achieving a luminous complexion with regular use.",
     rating: 4.8,
@@ -41,9 +41,9 @@ export const PRODUCTS: Product[] = [
     id: "p2",
     name: "Luxe Leather Crossbody Bag",
     category: "Fashion",
-    price: 129.99,
+    price: 10800,
     image:
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&h=500&fit=crop&q=80",
     description:
       "Italian leather crossbody bag with adjustable strap. Classic and versatile for everyday use.",
     rating: 4.9,
@@ -77,9 +77,9 @@ export const PRODUCTS: Product[] = [
     id: "p3",
     name: "Anti-Aging Face Mask",
     category: "Beauty",
-    price: 38.99,
+    price: 3200,
     image:
-      "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop&q=80",
     description:
       "Collagen-rich face mask that reduces fine lines and improves skin elasticity in just one application.",
     rating: 4.7,
@@ -113,9 +113,9 @@ export const PRODUCTS: Product[] = [
     id: "p4",
     name: "Premium Wellness Journal",
     category: "Wellness",
-    price: 24.99,
+    price: 2100,
     image:
-      "https://images.unsplash.com/photo-1507842217343-583f20270319?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1507842217343-583f20270319?w=500&h=500&fit=crop&q=80",
     description:
       "Beautifully designed wellness journal with guided prompts for mindfulness and self-reflection.",
     rating: 4.6,
@@ -149,9 +149,9 @@ export const PRODUCTS: Product[] = [
     id: "p5",
     name: "Designer Sunglasses",
     category: "Fashion",
-    price: 149.99,
+    price: 12500,
     image:
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop&q=80",
     description:
       "Premium UV-protective sunglasses with UV400 lenses. Iconic style that suits every face shape.",
     rating: 4.8,
@@ -185,7 +185,7 @@ export const PRODUCTS: Product[] = [
     id: "p6",
     name: "Aromatherapy Essential Oil Set",
     category: "Wellness",
-    price: 34.99,
+    price: 2900,
     image:
       "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500&h=500&fit=crop&q=80",
     description:
@@ -221,7 +221,7 @@ export const PRODUCTS: Product[] = [
     id: "p7",
     name: "Silk Sleep Pillowcase",
     category: "Wellness",
-    price: 29.99,
+    price: 2500,
     image:
       "https://images.unsplash.com/photo-1611003228941-98852ba62227?w=500&h=500&fit=crop&q=80",
     description:
@@ -257,9 +257,9 @@ export const PRODUCTS: Product[] = [
     id: "p8",
     name: "Premium Athletic Leggings",
     category: "Fashion",
-    price: 89.99,
+    price: 7500,
     image:
-      "https://images.unsplash.com/photo-1542272604-787c62d465d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop&q=80",
     description:
       "High-waisted leggings with moisture-wicking fabric. Perfect for gym, yoga, and everyday wear.",
     rating: 4.8,
@@ -293,9 +293,9 @@ export const PRODUCTS: Product[] = [
     id: "p9",
     name: "Rose Gold Makeup Brush Set",
     category: "Beauty",
-    price: 42.99,
+    price: 3600,
     image:
-      "https://images.unsplash.com/photo-1596462502278-af242a95b598?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1596462502278-af242a95b598?w=500&h=500&fit=crop&q=80",
     description:
       "Professional 12-piece makeup brush set with rose gold handles. Perfect for flawless makeup application.",
     rating: 4.9,
@@ -329,9 +329,9 @@ export const PRODUCTS: Product[] = [
     id: "p10",
     name: "Trendy Crossbody Sling Bag",
     category: "Fashion",
-    price: 64.99,
+    price: 5400,
     image:
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591378760701-f3fa04e8d793?w=500&h=500&fit=crop&q=80",
     description:
       "Stylish mini crossbody bag with adjustable strap. Perfect for day trips and casual outings.",
     rating: 4.6,
@@ -365,9 +365,9 @@ export const PRODUCTS: Product[] = [
     id: "p11",
     name: "Hydrating Face Moisturizer",
     category: "Beauty",
-    price: 35.99,
+    price: 3000,
     image:
-      "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=500&h=500&fit=crop&q=80",
     description:
       "Lightweight hydrating moisturizer with hyaluronic acid. Suitable for all skin types.",
     rating: 4.8,
@@ -401,9 +401,9 @@ export const PRODUCTS: Product[] = [
     id: "p12",
     name: "Luxury Hair Care Serum",
     category: "Beauty",
-    price: 39.99,
+    price: 3300,
     image:
-      "https://images.unsplash.com/photo-1585232741323-48acdf16ab04?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1585232741323-48acdf16ab04?w=500&h=500&fit=crop&q=80",
     description:
       "Premium argan oil hair serum that adds shine and reduces frizz. Perfect for all hair types.",
     rating: 4.7,
@@ -437,7 +437,7 @@ export const PRODUCTS: Product[] = [
     id: "p13",
     name: "Oversized Linen Blazer",
     category: "Fashion",
-    price: 94.99,
+    price: 7900,
     image:
       "https://images.unsplash.com/photo-1539533057440-7bf6ad799eae?w=500&h=500&fit=crop&q=80",
     description:
@@ -473,7 +473,7 @@ export const PRODUCTS: Product[] = [
     id: "p14",
     name: "Wellness Vitamin Supplement Pack",
     category: "Wellness",
-    price: 39.99,
+    price: 3300,
     image:
       "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=500&h=500&fit=crop&q=80",
     description:
@@ -509,7 +509,7 @@ export const PRODUCTS: Product[] = [
     id: "p15",
     name: "Gold-Plated Jewelry Set",
     category: "Fashion",
-    price: 79.99,
+    price: 6600,
     image:
       "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop&q=80",
     description:
@@ -545,7 +545,7 @@ export const PRODUCTS: Product[] = [
     id: "p16",
     name: "Wellness Yoga Mat",
     category: "Wellness",
-    price: 44.99,
+    price: 3700,
     image:
       "https://images.unsplash.com/photo-1518611505868-48510c2e022b?w=500&h=500&fit=crop&q=80",
     description:
