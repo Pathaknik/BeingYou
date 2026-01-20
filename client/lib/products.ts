@@ -187,7 +187,7 @@ export const PRODUCTS: Product[] = [
     category: "Wellness",
     price: 34.99,
     image:
-      "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500&h=500&fit=crop&q=80",
     description:
       "6-piece essential oil collection with lavender, eucalyptus, peppermint, and more for relaxation.",
     rating: 4.9,
@@ -223,7 +223,7 @@ export const PRODUCTS: Product[] = [
     category: "Wellness",
     price: 29.99,
     image:
-      "https://images.unsplash.com/photo-1584857300282-a8eec600fc35?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1611003228941-98852ba62227?w=500&h=500&fit=crop&q=80",
     description:
       "100% mulberry silk pillowcase that reduces hair breakage and keeps skin hydrated while sleeping.",
     rating: 4.7,
@@ -259,7 +259,7 @@ export const PRODUCTS: Product[] = [
     category: "Fashion",
     price: 89.99,
     image:
-      "https://images.unsplash.com/photo-1506629082632-401ba63c6711?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1506629082632-401ba63c6711?w=500&h=500&fit=crop&q=80",
     description:
       "High-waisted leggings with moisture-wicking fabric. Perfect for gym, yoga, and everyday wear.",
     rating: 4.8,
@@ -285,6 +285,294 @@ export const PRODUCTS: Product[] = [
         author: "Priya S.",
         rating: 4,
         text: "Very comfortable for workouts. True to size.",
+        date: "2024-01-14",
+      },
+    ],
+  },
+  {
+    id: "p9",
+    name: "Rose Gold Makeup Brush Set",
+    category: "Beauty",
+    price: 42.99,
+    image:
+      "https://images.unsplash.com/photo-1631214174585-fe5582592c16?w=500&h=500&fit=crop&q=80",
+    description:
+      "Professional 12-piece makeup brush set with rose gold handles. Perfect for flawless makeup application.",
+    rating: 4.9,
+    reviewCount: 298,
+    inStock: true,
+    reviews: [
+      {
+        id: "r1",
+        author: "Chelsea B.",
+        rating: 5,
+        text: "Best brushes I've ever used! The quality is amazing for the price.",
+        date: "2024-01-18",
+      },
+      {
+        id: "r2",
+        author: "Erin M.",
+        rating: 5,
+        text: "Beautiful set and the brushes are so soft. Highly recommend!",
+        date: "2024-01-16",
+      },
+      {
+        id: "r3",
+        author: "Harper L.",
+        rating: 4,
+        text: "Great quality. Takes a while to get used to them but worth it.",
+        date: "2024-01-14",
+      },
+    ],
+  },
+  {
+    id: "p10",
+    name: "Trendy Crossbody Sling Bag",
+    category: "Fashion",
+    price: 64.99,
+    image:
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&h=500&fit=crop&q=80",
+    description:
+      "Stylish mini crossbody bag with adjustable strap. Perfect for day trips and casual outings.",
+    rating: 4.6,
+    reviewCount: 187,
+    inStock: true,
+    reviews: [
+      {
+        id: "r1",
+        author: "Sophia J.",
+        rating: 5,
+        text: "Cute and practical. Perfect size for everyday essentials.",
+        date: "2024-01-17",
+      },
+      {
+        id: "r2",
+        author: "Maya K.",
+        rating: 4,
+        text: "Good quality bag. Adjustable strap is a plus.",
+        date: "2024-01-15",
+      },
+      {
+        id: "r3",
+        author: "Nina R.",
+        rating: 5,
+        text: "Love the color and style. Very Instagram-worthy!",
+        date: "2024-01-12",
+      },
+    ],
+  },
+  {
+    id: "p11",
+    name: "Hydrating Face Moisturizer",
+    category: "Beauty",
+    price: 35.99,
+    image:
+      "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop&q=80",
+    description:
+      "Lightweight hydrating moisturizer with hyaluronic acid. Suitable for all skin types.",
+    rating: 4.8,
+    reviewCount: 412,
+    inStock: true,
+    reviews: [
+      {
+        id: "r1",
+        author: "Grace T.",
+        rating: 5,
+        text: "This moisturizer is a lifesaver! My skin feels so hydrated.",
+        date: "2024-01-18",
+      },
+      {
+        id: "r2",
+        author: "Lucy W.",
+        rating: 5,
+        text: "Absorbs quickly and doesn't leave greasy residue.",
+        date: "2024-01-16",
+      },
+      {
+        id: "r3",
+        author: "Bella M.",
+        rating: 4,
+        text: "Good product. A little goes a long way.",
+        date: "2024-01-14",
+      },
+    ],
+  },
+  {
+    id: "p12",
+    name: "Luxury Hair Care Serum",
+    category: "Beauty",
+    price: 39.99,
+    image:
+      "https://images.unsplash.com/photo-1585232741323-48acdf16ab04?w=500&h=500&fit=crop&q=80",
+    description:
+      "Premium argan oil hair serum that adds shine and reduces frizz. Perfect for all hair types.",
+    rating: 4.7,
+    reviewCount: 323,
+    inStock: true,
+    reviews: [
+      {
+        id: "r1",
+        author: "Victoria P.",
+        rating: 5,
+        text: "My hair has never looked shinier! This serum is magical.",
+        date: "2024-01-17",
+      },
+      {
+        id: "r2",
+        author: "Amber H.",
+        rating: 4,
+        text: "Great product. A little goes a long way. Recommend!",
+        date: "2024-01-15",
+      },
+      {
+        id: "r3",
+        author: "Sienna G.",
+        rating: 5,
+        text: "Reduces frizz so well. Love using this before styling.",
+        date: "2024-01-12",
+      },
+    ],
+  },
+  {
+    id: "p13",
+    name: "Oversized Linen Blazer",
+    category: "Fashion",
+    price: 94.99,
+    image:
+      "https://images.unsplash.com/photo-1539533057440-7bf6ad799eae?w=500&h=500&fit=crop&q=80",
+    description:
+      "Chic oversized linen blazer. Perfect for casual and formal occasions. Breathable and comfortable.",
+    rating: 4.7,
+    reviewCount: 156,
+    inStock: true,
+    reviews: [
+      {
+        id: "r1",
+        author: "Jennifer S.",
+        rating: 5,
+        text: "This blazer is so versatile! Looks great with anything.",
+        date: "2024-01-18",
+      },
+      {
+        id: "r2",
+        author: "Lauren D.",
+        rating: 4,
+        text: "Comfortable and stylish. A wardrobe staple!",
+        date: "2024-01-16",
+      },
+      {
+        id: "r3",
+        author: "Megan C.",
+        rating: 5,
+        text: "Perfect for summer. Lightweight and breathable.",
+        date: "2024-01-13",
+      },
+    ],
+  },
+  {
+    id: "p14",
+    name: "Wellness Vitamin Supplement Pack",
+    category: "Wellness",
+    price: 39.99,
+    image:
+      "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=500&h=500&fit=crop&q=80",
+    description:
+      "Complete daily vitamin and mineral supplement pack. Supports immune system and overall health.",
+    rating: 4.6,
+    reviewCount: 289,
+    inStock: true,
+    reviews: [
+      {
+        id: "r1",
+        author: "Jessica N.",
+        rating: 5,
+        text: "I feel more energetic since taking these. Great value!",
+        date: "2024-01-17",
+      },
+      {
+        id: "r2",
+        author: "Rachel T.",
+        rating: 4,
+        text: "Good quality supplements. Easy to take daily.",
+        date: "2024-01-15",
+      },
+      {
+        id: "r3",
+        author: "Sophia L.",
+        rating: 5,
+        text: "Noticeable difference in my energy levels. Highly recommend!",
+        date: "2024-01-12",
+      },
+    ],
+  },
+  {
+    id: "p15",
+    name: "Gold-Plated Jewelry Set",
+    category: "Fashion",
+    price: 79.99,
+    image:
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop&q=80",
+    description:
+      "Elegant gold-plated jewelry set with necklace, bracelet, and earrings. Perfect for gifting.",
+    rating: 4.8,
+    reviewCount: 234,
+    inStock: true,
+    reviews: [
+      {
+        id: "r1",
+        author: "Olivia R.",
+        rating: 5,
+        text: "Gorgeous set! Looks way more expensive than the price.",
+        date: "2024-01-18",
+      },
+      {
+        id: "r2",
+        author: "Emma V.",
+        rating: 5,
+        text: "Beautiful jewelry. Great gift for any occasion.",
+        date: "2024-01-16",
+      },
+      {
+        id: "r3",
+        author: "Ava K.",
+        rating: 4,
+        text: "Great quality for the price. Highly satisfied!",
+        date: "2024-01-13",
+      },
+    ],
+  },
+  {
+    id: "p16",
+    name: "Wellness Yoga Mat",
+    category: "Wellness",
+    price: 44.99,
+    image:
+      "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=500&h=500&fit=crop&q=80",
+    description:
+      "Premium non-slip yoga mat with carrying strap. Perfect for yoga, pilates, and meditation.",
+    rating: 4.9,
+    reviewCount: 378,
+    inStock: true,
+    reviews: [
+      {
+        id: "r1",
+        author: "Natalie H.",
+        rating: 5,
+        text: "Best yoga mat I've owned! Super comfortable and stable.",
+        date: "2024-01-18",
+      },
+      {
+        id: "r2",
+        author: "Katie F.",
+        rating: 5,
+        text: "Non-slip surface is amazing. Highly recommend!",
+        date: "2024-01-16",
+      },
+      {
+        id: "r3",
+        author: "Sophie B.",
+        rating: 4,
+        text: "Great quality. Perfect for home workouts.",
         date: "2024-01-14",
       },
     ],
