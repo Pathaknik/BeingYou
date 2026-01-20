@@ -295,7 +295,7 @@ export const PRODUCTS: Product[] = [
     category: "Beauty",
     price: 42.99,
     image:
-      "https://images.unsplash.com/photo-1631214174585-fe5582592c16?w=500&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1596462502278-af242a95b598?w=500&h=500&fit=crop&q=80",
     description:
       "Professional 12-piece makeup brush set with rose gold handles. Perfect for flawless makeup application.",
     rating: 4.9,
