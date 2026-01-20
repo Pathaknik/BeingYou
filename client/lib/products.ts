@@ -259,7 +259,7 @@ export const PRODUCTS: Product[] = [
     category: "Fashion",
     price: 89.99,
     image:
-      "https://images.unsplash.com/photo-1441701494784-dc2738aa9142?w=500&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop&q=80",
     description:
       "High-waisted leggings with moisture-wicking fabric. Perfect for gym, yoga, and everyday wear.",
     rating: 4.8,
