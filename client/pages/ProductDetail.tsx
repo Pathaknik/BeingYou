@@ -260,7 +260,7 @@ export default function ProductDetail() {
                       </h3>
                       <div className="flex items-center justify-between">
                         <span className="text-lg font-bold text-foreground">
-                          ${relatedProduct.price}
+                          ₹{relatedProduct.price.toLocaleString('en-IN')}
                         </span>
                         <div className="flex items-center gap-1">
                           <Star className="w-4 h-4 fill-secondary text-secondary" />
