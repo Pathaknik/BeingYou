@@ -403,7 +403,7 @@ export const PRODUCTS: Product[] = [
     category: "Beauty",
     price: 39.99,
     image:
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1580489944761-b3babe65521b?w=500&h=500&fit=crop&q=80",
     description:
       "Premium argan oil hair serum that adds shine and reduces frizz. Perfect for all hair types.",
     rating: 4.7,
