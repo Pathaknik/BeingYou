@@ -129,7 +129,7 @@ export default function ProductDetail() {
               {/* Price */}
               <div className="mb-6">
                 <span className="text-5xl font-bold text-foreground">
-                  ${product.price}
+                  ₹{product.price.toLocaleString('en-IN')}
                 </span>
               </div>
 
