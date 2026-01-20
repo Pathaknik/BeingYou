@@ -2,6 +2,8 @@ import "dotenv/config";
 import express from "express";
 import cors from "cors";
 import { handleDemo } from "./routes/demo";
+import { handleLogin, handleRegister } from "./routes/auth";
+import { handleTrackActivity, handleGetActivities } from "./routes/activity";
 
 export function createServer() {
   const app = express();
@@ -18,6 +20,14 @@ export function createServer() {
   });
 
   app.get("/api/demo", handleDemo);
+
+  // Authentication routes
+  app.post("/api/auth/login", handleLogin);
+  app.post("/api/auth/register", handleRegister);
+
+  // Activity tracking routes
+  app.post("/api/activity/track", handleTrackActivity);
+  app.get("/api/activity/all", handleGetActivities);
 
   return app;
 }
