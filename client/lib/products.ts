@@ -115,7 +115,7 @@ export const PRODUCTS: Product[] = [
     category: "Wellness",
     price: 24.99,
     image:
-      "https://images.unsplash.com/photo-1507842217343-583f20270319?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1507842217343-583f20270319?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     description:
       "Beautifully designed wellness journal with guided prompts for mindfulness and self-reflection.",
     rating: 4.6,
@@ -259,7 +259,7 @@ export const PRODUCTS: Product[] = [
     category: "Fashion",
     price: 89.99,
     image:
-      "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1542272604-787c62d465d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     description:
       "High-waisted leggings with moisture-wicking fabric. Perfect for gym, yoga, and everyday wear.",
     rating: 4.8,
@@ -295,7 +295,7 @@ export const PRODUCTS: Product[] = [
     category: "Beauty",
     price: 42.99,
     image:
-      "https://images.unsplash.com/photo-1512207736139-2c1d64e3767d?w=500&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1596462502278-af242a95b598?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     description:
       "Professional 12-piece makeup brush set with rose gold handles. Perfect for flawless makeup application.",
     rating: 4.9,
@@ -403,7 +403,7 @@ export const PRODUCTS: Product[] = [
     category: "Beauty",
     price: 39.99,
     image:
-      "https://images.unsplash.com/photo-1580489944761-b3babe65521b?w=500&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1585232741323-48acdf16ab04?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     description:
       "Premium argan oil hair serum that adds shine and reduces frizz. Perfect for all hair types.",
     rating: 4.7,
