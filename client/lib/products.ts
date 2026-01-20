@@ -115,7 +115,7 @@ export const PRODUCTS: Product[] = [
     category: "Wellness",
     price: 24.99,
     image:
-      "https://images.unsplash.com/photo-1507842217343-583f20270319?w=500&h=500&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1456324504494-e24c1aaafb86?w=500&h=500&fit=crop&q=80",
     description:
       "Beautifully designed wellness journal with guided prompts for mindfulness and self-reflection.",
     rating: 4.6,
