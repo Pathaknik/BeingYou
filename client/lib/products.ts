@@ -79,7 +79,7 @@ export const PRODUCTS: Product[] = [
     category: "Beauty",
     price: 38.99,
     image:
-      "https://images.unsplash.com/photo-1596724181169-82b517e5c5ba?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop",
     description:
       "Collagen-rich face mask that reduces fine lines and improves skin elasticity in just one application.",
     rating: 4.7,
