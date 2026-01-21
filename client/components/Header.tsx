@@ -15,12 +15,27 @@ export function Header() {
   const navigate = useNavigate();
   const [user, setUser] = useState<User | null>(null);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [cartCount, setCartCount] = useState(0);
+  const [wishlistCount, setWishlistCount] = useState(0);
 
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (storedUser) {
       setUser(JSON.parse(storedUser));
     }
+
+    // Update cart and wishlist counts
+    setCartCount(getCartCount());
+    setWishlistCount(getWishlistCount());
+
+    // Listen for storage changes
+    const handleStorageChange = () => {
+      setCartCount(getCartCount());
+      setWishlistCount(getWishlistCount());
+    };
+
+    window.addEventListener("storage", handleStorageChange);
+    return () => window.removeEventListener("storage", handleStorageChange);
   }, []);
 
   const handleLogout = () => {
