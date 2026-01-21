@@ -14,6 +14,10 @@ import Products from "./pages/Products";
 import ProductDetail from "./pages/ProductDetail";
 import AdminProducts from "./pages/AdminProducts";
 import NotFound from "./pages/NotFound";
+import { initializeStorage } from "./lib/storage";
+
+// Initialize storage with default products if needed
+initializeStorage();
 
 const queryClient = new QueryClient();
 
