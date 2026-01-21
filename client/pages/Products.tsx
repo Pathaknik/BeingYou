@@ -14,7 +14,7 @@ export default function Products() {
   const selectedCategory = searchParams.get("category");
 
   const filteredAndSortedProducts = useMemo(() => {
-    let filtered = PRODUCTS;
+    let filtered = PRODUCTS();
 
     if (selectedCategory) {
       filtered = filtered.filter((p) => p.category === selectedCategory);
