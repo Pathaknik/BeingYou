@@ -91,7 +91,7 @@ export function Header() {
             <Search className="w-5 h-5" />
           </button>
 
-          <button className="p-2 hover:bg-muted rounded-lg transition relative" title="Wishlist">
+          <button onClick={() => navigate('/wishlist')} className="p-2 hover:bg-muted rounded-lg transition relative" title="Wishlist">
             <Heart className="w-5 h-5" />
             {wishlistCount > 0 && (
               <span className="absolute top-0 right-0 bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
