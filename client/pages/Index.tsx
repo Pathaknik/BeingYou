@@ -5,7 +5,7 @@ import { PRODUCTS } from "@/lib/products";
 import { ArrowRight, Sparkles, Heart, Zap } from "lucide-react";
 
 export default function Index() {
-  const featuredProducts = PRODUCTS.slice(0, 6);
+  const featuredProducts = PRODUCTS().slice(0, 6);
 
   return (
     <>
