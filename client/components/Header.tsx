@@ -90,6 +90,11 @@ export function Header() {
                   <span className="hidden sm:inline">{user.name}</span>
                 </Button>
               </Link>
+              <Link to="/admin/products" title="Manage Products">
+                <Button variant="ghost" size="sm">
+                  <Settings className="w-4 h-4" />
+                </Button>
+              </Link>
               <Button
                 variant="ghost"
                 size="sm"
