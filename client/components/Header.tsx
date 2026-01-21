@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import { Heart, ShoppingBag, User, LogOut, Search } from "lucide-react";
+import { Heart, ShoppingBag, User, LogOut, Search, Settings } from "lucide-react";
 import { Button } from "./ui/button";
 import { useState, useEffect } from "react";
 
