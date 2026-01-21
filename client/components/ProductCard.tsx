@@ -79,15 +79,13 @@ export function ProductCard({ product, onAddToCart }: ProductCardProps) {
 
           {/* Wishlist Button */}
           <button
-            onClick={(e) => {
-              e.preventDefault();
-              setIsWishlisted(!isWishlisted);
-            }}
+            onClick={handleToggleWishlist}
             className="absolute top-3 right-3 p-2 bg-background/80 backdrop-blur rounded-full hover:bg-background transition"
+            title={isWishlisted ? "Remove from wishlist" : "Add to wishlist"}
           >
             <Heart
-              className={`w-5 h-5 ${
-                isWishlisted ? "fill-red-500 text-red-500" : "text-foreground"
+              className={`w-5 h-5 transition-colors ${
+                isWishlisted ? "fill-red-500 text-red-500" : "text-foreground hover:text-red-500"
               }`}
             />
           </button>
