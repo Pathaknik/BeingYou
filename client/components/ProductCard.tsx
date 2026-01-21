@@ -135,12 +135,21 @@ export function ProductCard({ product, onAddToCart }: ProductCardProps) {
             onClick={handleAddToCart}
             className={`w-full py-2.5 rounded-lg font-semibold transition-all flex items-center justify-center gap-2 ${
               isAdded
-                ? "bg-green-500 text-white"
+                ? "bg-green-500 hover:bg-green-600 text-white"
                 : "bg-primary hover:bg-primary/90 text-primary-foreground"
             }`}
           >
-            <ShoppingBag className="w-4 h-4" />
-            {isAdded ? "Added!" : "Add to Cart"}
+            {isAdded ? (
+              <>
+                <Check className="w-4 h-4" />
+                Added to Cart!
+              </>
+            ) : (
+              <>
+                <ShoppingBag className="w-4 h-4" />
+                Add to Cart
+              </>
+            )}
           </button>
         </div>
       </div>
