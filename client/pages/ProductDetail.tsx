@@ -59,7 +59,7 @@ export default function ProductDetail() {
     trackActivity("purchase");
   };
 
-  const relatedProducts = PRODUCTS.filter(
+  const relatedProducts = PRODUCTS().filter(
     (p) => p.category === product.category && p.id !== product.id
   ).slice(0, 3);
 
