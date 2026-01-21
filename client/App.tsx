@@ -14,6 +14,7 @@ import Products from "./pages/Products";
 import ProductDetail from "./pages/ProductDetail";
 import AdminProducts from "./pages/AdminProducts";
 import Cart from "./pages/Cart";
+import Wishlist from "./pages/Wishlist";
 import NotFound from "./pages/NotFound";
 import { initializeStorage } from "./lib/storage";
 
