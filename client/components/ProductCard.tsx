@@ -42,12 +42,19 @@ export function ProductCard({ product, onAddToCart }: ProductCardProps) {
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
+    addToCart(product);
     trackActivity("add_to_cart");
     if (onAddToCart) {
       onAddToCart(product);
     }
     setIsAdded(true);
     setTimeout(() => setIsAdded(false), 2000);
+  };
+
+  const handleToggleWishlist = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const newState = toggleWishlist(product.id);
+    setIsWishlisted(newState);
   };
 
   const handleViewProduct = () => {
