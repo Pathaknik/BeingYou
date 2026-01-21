@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
-import { Heart, Star, ShoppingBag } from "lucide-react";
+import { Heart, Star, ShoppingBag, Check } from "lucide-react";
 import { Product } from "@shared/api";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { addToCart } from "@/lib/cart";
+import { toggleWishlist, isInWishlist } from "@/lib/wishlist";
 
 interface ProductCardProps {
   product: Product;
@@ -11,6 +13,10 @@ interface ProductCardProps {
 export function ProductCard({ product, onAddToCart }: ProductCardProps) {
   const [isWishlisted, setIsWishlisted] = useState(false);
   const [isAdded, setIsAdded] = useState(false);
+
+  useEffect(() => {
+    setIsWishlisted(isInWishlist(product.id));
+  }, [product.id]);
 
   const trackActivity = async (action: "view" | "add_to_cart") => {
     const user = localStorage.getItem("user");
