@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 export default function ProductDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const product = PRODUCTS.find((p) => p.id === id);
+  const product = PRODUCTS().find((p) => p.id === id);
   const [isAdded, setIsAdded] = useState(false);
   const [isWishlisted, setIsWishlisted] = useState(false);
 
