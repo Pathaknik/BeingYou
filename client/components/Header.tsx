@@ -1,5 +1,12 @@
 import { Link, useNavigate } from "react-router-dom";
-import { Heart, ShoppingBag, User, LogOut, Search, Settings } from "lucide-react";
+import {
+  Heart,
+  ShoppingBag,
+  User,
+  LogOut,
+  Search,
+  Settings,
+} from "lucide-react";
 import { Button } from "./ui/button";
 import { useState, useEffect } from "react";
 import { getCartCount } from "@/lib/cart";
@@ -50,7 +57,9 @@ export function Header() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 flex-shrink-0">
           <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-serif font-bold">L</span>
+            <span className="text-primary-foreground font-serif font-bold">
+              L
+            </span>
           </div>
           <span className="font-serif font-bold text-lg hidden sm:inline text-foreground">
             LUXE
@@ -71,13 +80,22 @@ export function Header() {
 
         {/* Navigation Links - Desktop */}
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-          <Link to="/products?category=Beauty" className="text-foreground hover:text-primary transition">
+          <Link
+            to="/products?category=Beauty"
+            className="text-foreground hover:text-primary transition"
+          >
             Beauty
           </Link>
-          <Link to="/products?category=Fashion" className="text-foreground hover:text-primary transition">
+          <Link
+            to="/products?category=Fashion"
+            className="text-foreground hover:text-primary transition"
+          >
             Fashion
           </Link>
-          <Link to="/products?category=Wellness" className="text-foreground hover:text-primary transition">
+          <Link
+            to="/products?category=Wellness"
+            className="text-foreground hover:text-primary transition"
+          >
             Wellness
           </Link>
         </nav>
@@ -91,7 +109,11 @@ export function Header() {
             <Search className="w-5 h-5" />
           </button>
 
-          <button onClick={() => navigate('/wishlist')} className="p-2 hover:bg-muted rounded-lg transition relative" title="Wishlist">
+          <button
+            onClick={() => navigate("/wishlist")}
+            className="p-2 hover:bg-muted rounded-lg transition relative"
+            title="Wishlist"
+          >
             <Heart className="w-5 h-5" />
             {wishlistCount > 0 && (
               <span className="absolute top-0 right-0 bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
@@ -100,7 +122,11 @@ export function Header() {
             )}
           </button>
 
-          <button onClick={() => navigate('/cart')} className="p-2 hover:bg-muted rounded-lg transition relative" title="Shopping Cart">
+          <button
+            onClick={() => navigate("/cart")}
+            className="p-2 hover:bg-muted rounded-lg transition relative"
+            title="Shopping Cart"
+          >
             <ShoppingBag className="w-5 h-5" />
             {cartCount > 0 && (
               <span className="absolute top-0 right-0 bg-primary text-primary-foreground text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">

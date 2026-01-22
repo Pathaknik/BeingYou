@@ -85,7 +85,9 @@ export function ProductCard({ product, onAddToCart }: ProductCardProps) {
           >
             <Heart
               className={`w-5 h-5 transition-colors ${
-                isWishlisted ? "fill-red-500 text-red-500" : "text-foreground hover:text-red-500"
+                isWishlisted
+                  ? "fill-red-500 text-red-500"
+                  : "text-foreground hover:text-red-500"
               }`}
             />
           </button>
@@ -126,7 +128,7 @@ export function ProductCard({ product, onAddToCart }: ProductCardProps) {
           {/* Price */}
           <div className="flex items-baseline gap-2 mt-auto mb-3">
             <span className="text-lg font-bold text-foreground">
-              ₹{product.price.toLocaleString('en-IN')}
+              ₹{product.price.toLocaleString("en-IN")}
             </span>
           </div>
 
