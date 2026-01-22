@@ -27,7 +27,10 @@ const queryClient = new QueryClient();
 if (typeof window !== "undefined") {
   const l = window.location;
   if (l.search[1] === "p") {
-    const newUrl = l.pathname.slice(0, -1) + decodeURIComponent(l.search.slice(3)).replace(/~and~/g, "&") + l.hash;
+    const newUrl =
+      l.pathname.slice(0, -1) +
+      decodeURIComponent(l.search.slice(3)).replace(/~and~/g, "&") +
+      l.hash;
     window.history.replaceState(null, "", newUrl);
   }
 }
